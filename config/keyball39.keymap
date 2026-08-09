@@ -65,6 +65,17 @@
             flavor = "tap-preferred";
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32 33 34 35>;
         };
+
+        // auto shift: 짧게 누르면 기본 자모, 길게 누르면 Shift 조합(쌍자음 ㅃㅉㄸㄲㅆ, 모음 ㅒㅖ)
+        as: auto_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "AUTO_SHIFT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <175>;
+            flavor = "tap-preferred";
+        };
     };
 
     macros {
@@ -91,10 +102,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q             &kp W      &kp E     &kp R            &kp T                          &kp Y      &kp U  &kp I      &kp O    &kp P
-&mt CAPS A        &kp S      &kp D     &kp F            &kp G                          &kp H      &kp J  &kp K      &kp L    &kp SEMI
-&mt LEFT_SHIFT Z  &kp X      &kp C     &kp V            &kp B                          &kp N      &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&lt 4 CAPS        &kp LCTRL  &kp LALT  &mt LGUI ESCAPE  &mo 2  &lt 1 GRAVE  &lt 1 TAB  &kp SPACE                             &kp ENTER
+&as LS(Q) Q       &as LS(W) W  &as LS(E) E  &as LS(R) R      &as LS(T) T                          &kp Y      &kp U  &kp I      &as LS(O) O  &as LS(P) P
+&mt CAPS A        &kp S        &kp D        &kp F            &kp G                                &kp H      &kp J  &kp K      &kp L        &kp SEMI
+&mt LEFT_SHIFT Z  &kp X        &kp C        &kp V            &kp B                                &kp N      &kp M  &kp COMMA  &kp DOT      &mt RIGHT_SHIFT SLASH
+&lt 4 CAPS        &kp LCTRL    &kp LALT     &mt LGUI ESCAPE  &mo 2        &lt 1 GRAVE  &lt 1 TAB  &kp SPACE                                 &kp ENTER
             >;
         };
 
