@@ -105,7 +105,7 @@
 &as LS(Q) Q       &as LS(W) W  &as LS(E) E  &as LS(R) R      &as LS(T) T                          &kp Y      &kp U  &kp I      &as LS(O) O  &as LS(P) P
 &mt CAPS A        &kp S        &kp D        &kp F            &kp G                                &kp H      &kp J  &kp K      &kp L        &kp SEMI
 &mt LEFT_SHIFT Z  &kp X        &kp C        &kp V            &kp B                                &kp N      &kp M  &kp COMMA  &kp DOT      &mt RIGHT_SHIFT SLASH
-&lt 4 CAPS        &kp LCTRL    &kp LALT     &mt LGUI ESCAPE  &mo 2        &lt 1 GRAVE  &lt 1 TAB  &kp SPACE                                 &kp ENTER
+&lt 4 CAPS        &kp LCTRL    &kp LALT     &mt LGUI ESCAPE  &mo 2        &lt 1 CAPS   &lt 1 TAB  &kp SPACE                                 &kp ENTER
             >;
         };
 
