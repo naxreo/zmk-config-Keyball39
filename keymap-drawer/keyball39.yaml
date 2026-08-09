@@ -31,12 +31,12 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
-  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: Gui+Sft+4, h: '$$mdi:apple-keyboard-option$$', s: Gui+Sft+$}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: NUM}
   - {t: '$$mdi:keyboard-esc$$', h: LGUI}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: NUM}
   - {t: '$$mdi:backspace$$', h: NUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -74,9 +74,9 @@ layers:
   - SCROLL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -93,7 +93,7 @@ layers:
   - )
   - {t: '`', s: '~'}
   - '~'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - NUM
   - '|'
   - \
   - {t: '=', s: +}
@@ -115,8 +115,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
@@ -154,9 +154,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -234,9 +234,9 @@ layers:
   - {t: '$$mdi:progress-download$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
