@@ -67,6 +67,7 @@
         };
 
         // auto shift: 짧게 누르면 기본 자모, 길게 누르면 Shift 조합(쌍자음 ㅃㅉㄸㄲㅆ, 모음 ㅒㅖ)
+
         as: auto_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "AUTO_SHIFT";
@@ -102,10 +103,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&as LS(Q) Q      &as LS(W) W      &as LS(E) E     &as LS(R) R      &as LS(T) T                         &kp Y      &kp U            &kp I                &as LS(O) O         &as LS(P) P
-&mt CAPS A       &kp S            &kp D           &kp F            &kp G                               &kp H      &kp J            &kp K                &kp L               &kp SEMI
-&hmLeft LSHFT Z  &hmLeft LCTRL X  &hmLeft LALT C  &hmLeft LGUI V   &kp B                               &kp N      &hmRight RGUI M  &hmRight RALT COMMA  &hmRight RCTRL DOT  &hmRight RSHFT SLASH
-&lt 4 CAPS       &kp LCTRL        &kp LALT        &mt LGUI ESCAPE  &mo 2        &lt 1 CAPS  &lt 1 TAB  &kp SPACE                                                            &kp ENTER
+&as LS(Q) Q      &as LS(W) W      &as LS(E) E     &as LS(R) R      &as LS(T) T                               &kp Y      &kp U            &kp I                &as LS(O) O         &as LS(P) P
+&mt CAPS A       &kp S            &kp D           &kp F            &kp G                                     &kp H      &kp J            &kp K                &kp L               &kp SEMI
+&hmLeft LSHFT Z  &hmLeft LCTRL X  &hmLeft LALT C  &hmLeft LGUI V   &kp B                                     &kp N      &hmRight RGUI M  &hmRight RALT COMMA  &hmRight RCTRL DOT  &hmRight RSHFT SLASH
+&lt 4 TAB        &kp LCTRL        &kp LALT        &mt LGUI ESCAPE  &lt 2 TAB    &lt 1 CAPS  &lt 1 BACKSPACE  &kp SPACE                                                            &kp ENTER
             >;
         };
 
