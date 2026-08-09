@@ -1,16 +1,16 @@
 layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
-  - Q
-  - W
-  - E
-  - R
-  - T
+  - {t: Q, h: Sft+Q}
+  - {t: W, h: Sft+W}
+  - {t: E, h: Sft+E}
+  - {t: R, h: Sft+R}
+  - {t: T, h: Sft+T}
   - Y
   - U
   - I
-  - O
-  - P
+  - {t: O, h: Sft+O}
+  - {t: P, h: Sft+P}
   - {t: A, h: '$$mdi:apple-keyboard-caps$$'}
   - S
   - D
@@ -22,21 +22,21 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
-  - X
-  - C
-  - V
+  - {t: X, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: V, h: LGUI}
   - B
   - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: M, h: RGUI}
+  - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
+  - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: MOUSE}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: LGUI}
   - SYM
-  - {t: '`', h: NUM, s: '~'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: NUM}
   - {t: '$$mdi:keyboard-tab$$', h: NUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
