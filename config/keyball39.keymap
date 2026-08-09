@@ -129,7 +129,7 @@
             >;
         };
 
-        scroll_layer {
+        layer5 {
             label = "SCROLL";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
