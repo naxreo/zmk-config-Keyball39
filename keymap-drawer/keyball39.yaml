@@ -31,13 +31,13 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: LGUI}
-  - SYM
+  - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:apple-keyboard-caps$$', h: NUM}
-  - {t: '$$mdi:keyboard-tab$$', h: NUM}
+  - {t: '$$mdi:backspace$$', h: NUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUM:
