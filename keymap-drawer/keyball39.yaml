@@ -34,9 +34,9 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: Gui+Sft+4, h: '$$mdi:apple-keyboard-option$$', s: Gui+Sft+$}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: NUM}
   - {t: '$$mdi:keyboard-esc$$', h: LGUI}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: NUM}
   - {t: '$$mdi:backspace$$', h: NUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -74,9 +74,9 @@ layers:
   - SCROLL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -115,8 +115,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
@@ -154,9 +154,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {type: held}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -234,9 +234,9 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
+  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held alternate}
   - $$mdi:progress-download$$
