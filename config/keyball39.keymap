@@ -25,11 +25,6 @@
     flavor = "tap-preferred";
 };
 
-&msc {
-    time-to-max-speed-ms = <40>;
-    acceleration-exponent = <0>;
-};
-
 / {
     // custom shift using mod-morph 
 
