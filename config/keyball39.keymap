@@ -117,10 +117,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&as LS(Q) Q      &as LS(W) W       &as LS(E) E          &as LS(R) R     &as LS(T) T                                  &kp Y      &kp U            &kp I                &as LS(O) O         &as LS(P) P
-&mt CAPS A       &kp S             &kp D                &kp F           &kp G                                        &kp H      &kp J            &kp K                &kp L               &kp SEMI
-&hmLeft LSHFT Z  &hmLeft LCTRL X   &hmLeft LALT C       &hmLeft LGUI V  &kp B                                        &kp N      &hmRight RGUI M  &hmRight RALT COMMA  &hmRight RCTRL DOT  &hmRight RSHFT SLASH
-&lt 4 ESCAPE     &mt LCTRL DELETE  &mt LALT LG(LS(N4))  &mt LGUI ESCAPE  &lt 2 TAB       &lt 1 CAPS  &lt 1 BACKSPACE  &kp SPACE                                                            &kp ENTER
+&as LS(Q) Q      &as LS(W) W       &as LS(E) E          &as LS(R) R      &as LS(T) T                               &kp Y      &kp U            &kp I                &as LS(O) O         &as LS(P) P
+&mt CAPS A       &kp S             &kp D                &kp F            &kp G                                     &kp H      &kp J            &kp K                &kp L               &kp SEMI
+&hmLeft LSHFT Z  &hmLeft LCTRL X   &hmLeft LALT C       &hmLeft LGUI V   &kp B                                     &kp N      &hmRight RGUI M  &hmRight RALT COMMA  &hmRight RCTRL DOT  &hmRight RSHFT SLASH
+&lt 4 ESCAPE     &mt LCTRL DELETE  &mt LALT LG(LS(N4))  &mt LGUI ESCAPE  &lt 2 TAB    &lt 1 CAPS  &lt 1 BACKSPACE  &kp SPACE                                                            &kp ENTER
             >;
         };
 
@@ -137,10 +137,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                           &kp CARET  &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp GRAVE        &kp TILDE    &mo 3     &kp PIPE    &kp NON_US_BACKSLASH                  &kp EQUAL  &kp MINUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-&trans           &trans       &trans    &trans      &none                                 &kp DEL    &kp BACKSPACE  &kp LESS_THAN     &kp GREATER_THAN      &kp QUESTION
-&none            &trans       &trans    &trans      &trans                &trans  &trans  &trans                                                            &kp LS(ENTER)
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR      &kp PERCENT                           &kp CARET  &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp GRAVE        &kp TILDE    &mo 3     &kp PIPE        &kp NON_US_BACKSLASH                  &kp EQUAL  &kp MINUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
+&trans           &trans       &kp PLUS  &kp UNDERSCORE  &none                                 &kp DEL    &kp BACKSPACE  &kp LESS_THAN     &kp GREATER_THAN      &kp QUESTION
+&none            &trans       &trans    &trans          &trans                &trans  &trans  &trans                                                            &kp LS(ENTER)
             >;
         };
 
