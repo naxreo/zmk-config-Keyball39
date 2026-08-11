@@ -33,7 +33,7 @@ layers:
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: Gui+Sft+4, h: '$$mdi:apple-keyboard-option$$', s: Gui+Sft+$}
+  - {t: Gui+Sft+4, h: MOUSE, s: Gui+Sft+$}
   - {t: '$$mdi:keyboard-esc$$', h: LGUI}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:apple-keyboard-caps$$', h: NUM}
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
