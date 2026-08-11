@@ -81,15 +81,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   SYM:
-  - '!'
-  - '@'
+  - {t: '!', h: Gui+Q}
+  - {t: '@', h: Gui+W}
   - '#'
-  - $
+  - {t: $, h: Gui+R}
   - '%'
   - ^
   - '&'
   - '*'
-  - (
+  - {t: (, h: Gui+O}
   - )
   - {t: '`', s: '~'}
   - '~'
@@ -97,14 +97,14 @@ layers:
   - '|'
   - {t: \, s: '|'}
   - {t: '=', h: +, s: +}
-  - {t: '-', h: _, s: _}
   - {t: '[', h: '{', s: '{'}
+  - {t: '-', h: _, s: _}
   - {t: ']', h: '}', s: '}'}
   - {t: '''', h: '"', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - +
-  - _
+  - {t: +, h: C}
+  - {t: _, h: V}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
