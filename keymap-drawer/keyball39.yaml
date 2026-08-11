@@ -81,15 +81,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   SYM:
-  - {t: '!', h: Gui+Q}
-  - {t: '@', h: Gui+W}
+  - {t: '!', h: '&shot LG(Q)'}
+  - {t: '@', h: '&shot LG(W)'}
   - '#'
-  - {t: $, h: Gui+R}
+  - {t: $, h: '&shot LG(R)'}
   - '%'
   - ^
   - '&'
   - '*'
-  - {t: (, h: Gui+O}
+  - {t: (, h: '&shot LG(O)'}
   - )
   - {t: '`', s: '~'}
   - '~'
@@ -103,8 +103,8 @@ layers:
   - {t: '''', h: '"', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: +, h: C}
-  - {t: _, h: V}
+  - {t: +, h: '&shot LG(C)'}
+  - {t: _, h: '&shot LG(V)'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
