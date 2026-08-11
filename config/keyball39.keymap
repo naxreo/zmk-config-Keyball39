@@ -137,9 +137,9 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR      &kp PERCENT                    &kp CARET       &kp AMPERSAND         &kp ASTERISK                 &kp LEFT_PARENTHESIS           &kp RIGHT_PARENTHESIS
-&kp GRAVE        &kp TILDE    &mo 3     &kp PIPE        &kp BACKSLASH                  &as PLUS EQUAL  &as UNDERSCORE MINUS  &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &as DOUBLE_QUOTES SQT
-&trans           &trans       &kp PLUS  &kp UNDERSCORE  &none                          &kp DEL         &kp BACKSPACE         &kp LESS_THAN                &kp GREATER_THAN               &kp QUESTION
+&mt LG(Q) EXCLAMATION  &mt LG(W) AT_SIGN  &kp HASH  &mt LG(R) DOLLAR  &kp PERCENT                    &kp CARET       &kp AMPERSAND         &kp ASTERISK                 &mt LG(O) LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS
+&kp GRAVE        &kp TILDE    &mo 3     &kp PIPE        &kp BACKSLASH                  &as PLUS EQUAL  &as LEFT_BRACE LEFT_BRACKET  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as DOUBLE_QUOTES SQT
+&trans           &trans       &mt LG(C) PLUS  &mt LG(V) UNDERSCORE  &none                          &kp DEL         &kp BACKSPACE         &kp LESS_THAN                &kp GREATER_THAN               &kp QUESTION
 &none            &trans       &trans    &trans          &trans         &trans  &trans  &trans                                                                                            &kp LS(ENTER)
             >;
         };
