@@ -86,6 +86,7 @@
         };
 
         // 조합키 전용 hold-tap: 홀드 시 매크로로 한 번만 tap (auto-repeat 없음)
+
         mts: mt_shot {
             compatible = "zmk,behavior-hold-tap";
             label = "MT_SHOT";
@@ -106,12 +107,11 @@
         };
 
         // 파라미터로 받은 키코드를 한 번만 tap (auto-repeat 방지용)
+
         shot: shot {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings
-                = <&macro_param_1to1>
-                , <&kp MACRO_PLACEHOLDER>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "SHOT";
         };
     };
@@ -141,7 +141,7 @@
 &as LS(Q) Q      &as LS(W) W       &as LS(E) E       &as LS(R) R      &as LS(T) T                               &kp Y      &kp U            &kp I                &as LS(O) O         &as LS(P) P
 &mt CAPS A       &kp S             &kp D             &kp F            &kp G                                     &kp H      &kp J            &kp K                &kp L               &as COLON SEMICOLON
 &hmLeft LSHFT Z  &hmLeft LCTRL X   &hmLeft LALT C    &hmLeft LGUI V   &kp B                                     &kp N      &hmRight RGUI M  &hmRight RALT COMMA  &hmRight RCTRL DOT  &hmRight RSHFT SLASH
-&lt 3 LG(LS(C))  &mt LCTRL DELETE  &lt 4 LG(LS(N4))  &mt LGUI ESCAPE  &lt 2 TAB    &lt 1 CAPS  &lt 1 BACKSPACE  &kp SPACE                                                            &kp ENTER
+&lt 3 LG(LS(C))  &mt LCTRL DELETE  &lt 4 LG(LS(N4))  &mt LGUI ESCAPE  &lt 2 TAB    &lt 4 CAPS  &lt 1 BACKSPACE  &kp SPACE                                                            &kp ENTER
             >;
         };
 
@@ -158,10 +158,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&mts LG(Q) EXCLAMATION  &mts LG(W) AT_SIGN  &kp HASH  &mts LG(R) DOLLAR  &kp PERCENT                    &kp CARET       &kp AMPERSAND         &kp ASTERISK                 &mts LG(O) LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS
-&kp GRAVE        &kp TILDE    &mo 3     &kp PIPE        &kp BACKSLASH                  &as PLUS EQUAL  &as LEFT_BRACE LEFT_BRACKET  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as DOUBLE_QUOTES SQT
-&trans           &trans       &mts LG(C) PLUS  &mts LG(V) UNDERSCORE  &none                          &kp DEL         &kp BACKSPACE         &kp LESS_THAN                &kp GREATER_THAN               &kp QUESTION
-&none            &trans       &trans    &trans          &trans         &trans  &trans  &trans                                                                                            &kp LS(ENTER)
+&mts LG(Q) EXCLAMATION  &mts LG(W) AT_SIGN  &kp HASH         &mts LG(R) DOLLAR      &kp PERCENT                    &kp CARET       &kp AMPERSAND                &kp ASTERISK          &mts LG(O) LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS
+&kp GRAVE               &kp TILDE           &mo 3            &kp PIPE               &kp BACKSLASH                  &as PLUS EQUAL  &as LEFT_BRACE LEFT_BRACKET  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as DOUBLE_QUOTES SQT
+&trans                  &trans              &mts LG(C) PLUS  &mts LG(V) UNDERSCORE  &none                          &kp DEL         &kp BACKSPACE                &kp LESS_THAN         &kp GREATER_THAN               &kp QUESTION
+&none                   &trans              &trans           &trans                 &trans         &trans  &trans  &trans                                                                                            &kp LS(ENTER)
             >;
         };
 
@@ -178,10 +178,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans        &trans          &trans                       &trans    &trans     &trans     &trans     &trans
-&trans  &trans  &msc SCRL_UP  &msc SCRL_DOWN  &trans                       &trans    &trans     &mkp LCLK  &trans     &trans
-&trans  &trans  &trans        &trans          &trans                       &trans    &mkp LCLK  &trans     &mkp RCLK  &trans
-&trans  &trans  &trans        &trans          &trans  &mkp LCLK  &mkp MB4  &mkp MB5                                   &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans        &trans        &mkp MB2      &mkp MB1      &msc SCRL_UP                      &kp LEFT_ARROW  &kp DOWN       &kp UP        &kp RIGHT     &trans
+&trans        &trans        &trans        &trans        &msc SCRL_DOWN                    &kp DELETE      &kp BACKSPACE  &mkp MB1      &mkp MB2      &trans
+&trans        &trans        &trans        &trans        &trans          &trans  &mkp MB4  &mkp MB5                                                   &trans
             >;
         };
 
