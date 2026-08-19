@@ -31,7 +31,7 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
-  - {t: Gui+Sft+C, h: NUM}
+  - {t: Gui+Sft+C, h: macro}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: Gui+Sft+4, h: '$$mdi:apple-keyboard-command$$', s: Gui+Sft+$}
   - {t: '$$mdi:keyboard-esc$$', h: SYM}
@@ -40,7 +40,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: SYM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  NUM:
+  macro:
   - '1'
   - '2'
   - '3'
@@ -105,7 +105,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - _
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - <
@@ -200,7 +200,7 @@ layers:
   - '&mkp MB4'
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
-  SCROLL:
+  blue:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -284,5 +284,11 @@ combos:
 - p: [17, 18]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [36, 37]
-  k: SCROLL
+  k: blue
   l: [QWRT]
+- p: [0, 1]
+  k: $$mdi:keyboard-esc$$
+- p: [8, 9]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [10, 11]
+  k: {t: '$$mdi:keyboard-tab$$', h: toggle}
