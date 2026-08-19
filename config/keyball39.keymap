@@ -130,6 +130,21 @@
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
+
+        cb_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        cb_backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
+        };
+
+        cb_tab {
+            bindings = <&kt TAB>;
+            key-positions = <10 11>;
+        };
     };
 
     keymap {
@@ -146,7 +161,7 @@
         };
 
         macro {
-            label = "NUM";
+            label = "macro";
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &trans        &trans        &trans        &trans        &trans                        &kp LEFT      &kp DOWN       &kp UP        &kp RIGHT     &none
@@ -158,10 +173,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&mts LG(Q) EXCLAMATION  &mts LG(W) AT_SIGN  &kp HASH   &mts LG(R) DOLLAR  &kp PERCENT                    &kp CARET       &kp AMPERSAND                &kp ASTERISK          &mts LG(O) LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS
-&kp GRAVE               &kp TILDE           &mo 3      &kp PIPE           &kp BACKSLASH                  &as PLUS EQUAL  &as LEFT_BRACE LEFT_BRACKET  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as DOUBLE_QUOTES SQT
-&trans                  &trans              &kp LG(C)  &kp LG(V)          &none                          &kp DEL         &kp BACKSPACE                &kp LESS_THAN         &kp GREATER_THAN               &kp QUESTION
-&trans                  &trans              &trans     &trans             &trans         &trans  &trans  &trans                                                                                            &kp LS(ENTER)
+&mts LG(Q) EXCLAMATION  &mts LG(W) AT_SIGN  &kp HASH   &mts LG(R) DOLLAR  &kp PERCENT                     &kp CARET       &kp AMPERSAND                &kp ASTERISK          &mts LG(O) LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS
+&kp GRAVE               &kp TILDE           &mo 3      &kp PIPE           &kp BACKSLASH                   &as PLUS EQUAL  &as LEFT_BRACE LEFT_BRACKET  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as DOUBLE_QUOTES SQT
+&trans                  &trans              &kp LG(C)  &kp LG(V)          &kp UNDERSCORE                  &kp DEL         &kp BACKSPACE                &kp LESS_THAN         &kp GREATER_THAN               &kp QUESTION
+&trans                  &trans              &trans     &trans             &trans          &trans  &trans  &trans                                                                                            &kp LS(ENTER)
             >;
         };
 
@@ -186,7 +201,7 @@
         };
 
         bluetooth {
-            label = "SCROLL";
+            label = "blue";
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &bt BT_SEL 4    &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0
 &bt BT_CLR    &trans        &trans        &trans        &bt BT_CLR_ALL                  &bt BT_CLR_ALL  &trans        &trans        &trans        &bt BT_CLR
