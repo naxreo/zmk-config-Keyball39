@@ -285,4 +285,4 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [36, 37]
   k: SCROLL
-  l: [NUM]
+  l: [QWRT]
