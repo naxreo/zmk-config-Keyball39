@@ -128,7 +128,7 @@
             bindings = <&mo 5>;
             key-positions = <36 37>;
             require-prior-idle-ms = <150>;
-            layers = <0>;
+            layers = <1>;
         };
     };
 
@@ -138,14 +138,14 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&as LS(Q) Q      &as LS(W) W       &as LS(E) E       &as LS(R) R      &as LS(T) T                               &kp Y      &kp U            &kp I                &as LS(O) O         &as LS(P) P
-&mt CAPS A       &kp S             &kp D             &kp F            &kp G                                     &kp H      &kp J            &kp K                &kp L               &as COLON SEMICOLON
-&hmLeft LSHFT Z  &hmLeft LCTRL X   &hmLeft LALT C    &hmLeft LGUI V   &kp B                                     &kp N      &hmRight RGUI M  &hmRight RALT COMMA  &hmRight RCTRL DOT  &hmRight RSHFT SLASH
-&lt 3 LG(LS(C))  &mt LCTRL DELETE  &lt 4 LG(LS(N4))  &mt LGUI ESCAPE  &lt 2 TAB    &lt 4 CAPS  &lt 1 BACKSPACE  &kp SPACE                                                            &kp ENTER
+&as LS(Q) Q      &as LS(W) W          &as LS(E) E                  &as LS(R) R     &as LS(T) T                               &kp Y      &kp U            &kp I                &as LS(O) O         &as LS(P) P
+&mt CAPS A       &kp S                &kp D                        &kp F           &kp G                                     &kp H      &kp J            &kp K                &kp L               &as COLON SEMICOLON
+&hmLeft LSHFT Z  &hmLeft LCTRL X      &hmLeft LALT C               &hmLeft LGUI V  &kp B                                     &kp N      &hmRight RGUI M  &hmRight RALT COMMA  &hmRight RCTRL DOT  &hmRight RSHFT SLASH
+&lt 1 LG(LS(C))  &mt LEFT_ALT DELETE  &mt LEFT_COMMAND LG(LS(N4))  &lt 2 ESCAPE    &lt 4 TAB    &lt 3 CAPS  &lt 2 BACKSPACE  &kp SPACE                                                            &kp ENTER
             >;
         };
 
-        number_layer {
+        macro {
             label = "NUM";
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
@@ -158,10 +158,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&mts LG(Q) EXCLAMATION  &mts LG(W) AT_SIGN  &kp HASH         &mts LG(R) DOLLAR      &kp PERCENT                    &kp CARET       &kp AMPERSAND                &kp ASTERISK          &mts LG(O) LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS
-&kp GRAVE               &kp TILDE           &mo 3            &kp PIPE               &kp BACKSLASH                  &as PLUS EQUAL  &as LEFT_BRACE LEFT_BRACKET  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as DOUBLE_QUOTES SQT
-&trans                  &trans              &mts LG(C) PLUS  &mts LG(V) UNDERSCORE  &none                          &kp DEL         &kp BACKSPACE                &kp LESS_THAN         &kp GREATER_THAN               &kp QUESTION
-&none                   &trans              &trans           &trans                 &trans         &trans  &trans  &trans                                                                                            &kp LS(ENTER)
+&mts LG(Q) EXCLAMATION  &mts LG(W) AT_SIGN  &kp HASH   &mts LG(R) DOLLAR  &kp PERCENT                    &kp CARET       &kp AMPERSAND                &kp ASTERISK          &mts LG(O) LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS
+&kp GRAVE               &kp TILDE           &mo 3      &kp PIPE           &kp BACKSLASH                  &as PLUS EQUAL  &as LEFT_BRACE LEFT_BRACKET  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as DOUBLE_QUOTES SQT
+&trans                  &trans              &kp LG(C)  &kp LG(V)          &none                          &kp DEL         &kp BACKSPACE                &kp LESS_THAN         &kp GREATER_THAN               &kp QUESTION
+&trans                  &trans              &trans     &trans             &trans         &trans  &trans  &trans                                                                                            &kp LS(ENTER)
             >;
         };
 
