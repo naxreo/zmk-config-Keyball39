@@ -194,7 +194,7 @@
             label = "MOUSE";
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &mkp MB2      &mkp MB1      &msc SCRL_UP                      &kp LEFT_ARROW  &kp DOWN       &kp UP        &kp RIGHT     &trans
+&trans        &trans        &mkp MB2      &mkp MB1      &msc SCRL_UP                      &kp LEFT_ARROW  &kp DOWN       &kp UP        &kp RIGHT     &mkp MB4
 &trans        &trans        &trans        &trans        &msc SCRL_DOWN                    &kp DELETE      &kp BACKSPACE  &mkp MB1      &mkp MB2      &trans
 &trans        &trans        &trans        &trans        &trans          &trans  &mkp MB4  &mkp MB5                                                   &trans
             >;
