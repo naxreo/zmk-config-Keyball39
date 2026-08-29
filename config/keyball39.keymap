@@ -221,10 +221,10 @@
         macro {
             label = "macro";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans                  &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none
-&trans  &trans  &trans  &trans  &trans                  &kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_0                                            &kp ENTER
+&trans  &trans  &wMission  &trans     &trans                     &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
+&trans  &wLeft  &wSize     &wRight    &wDisplay                  &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none
+&trans  &trans  &wCenter   &wDesktop  &trans                     &kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
+&trans  &trans  &trans     &trans     &trans     &trans  &trans  &kp NUMBER_0                                            &kp ENTER
             >;
         };
 
