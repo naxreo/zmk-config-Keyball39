@@ -114,6 +114,64 @@
             bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "SHOT";
         };
+
+        // 윈도우 관리 단축키 — 홀드해도 1회만 전송 (auto-repeat 없음)
+
+        wAlmostMax: window_almost_maximize {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LS(O))>;
+            label = "W_ALMOST_MAX";
+        };
+
+        wCenter: window_center {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(C)>;
+            label = "W_CENTER";
+        };
+
+        wLeft: window_left_half {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LEFT)>;
+            label = "W_LEFT_HALF";
+        };
+
+        wRight: window_right_half {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(RIGHT)>;
+            label = "W_RIGHT_HALF";
+        };
+
+        wSize: window_reasonable_size {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(O)>;
+            label = "W_REASONABLE_SIZE";
+        };
+
+        wDesktop: window_next_desktop {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(TAB))>;
+            label = "W_NEXT_DESKTOP";
+        };
+
+        wDisplay: window_next_display {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LA(TAB))>;
+            label = "W_NEXT_DISPLAY";
+        };
+
+        wMission: window_mission_control {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(UP)>;
+            label = "W_MISSION_CONTROL";
+        };
     };
 
     combos {
