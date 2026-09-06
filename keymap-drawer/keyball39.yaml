@@ -20,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: ':', s: ':'}
+  - {t: '''', h: Sft+', s: '"'}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: X, h: '$$mdi:apple-keyboard-control$$'}
   - {t: C, h: '$$mdi:apple-keyboard-option$$'}
@@ -100,7 +100,7 @@ layers:
   - {t: '=', h: +, s: +}
   - {t: '-', h: _, s: _}
   - {t: ']', h: '}', s: '}'}
-  - {t: '''', h: '"', s: '"'}
+  - {t: ;, h: Sft+;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
@@ -206,11 +206,11 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
