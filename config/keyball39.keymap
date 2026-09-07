@@ -214,7 +214,7 @@
 &as LS(Q) Q      &as LS(W) W          &as LS(E) E       &as LS(R) R              &as LS(T) T                              &kp Y      &kp U            &kp I                &as LS(O) O         &as LS(P) P
 &mt CAPS A       &kp S                &kp D             &kp F                    &kp G                                    &kp H      &kp J            &kp K                &kp L               &as LS(SINGLE_QUOTE) SINGLE_QUOTE
 &hmLeft LSHFT Z  &hmLeft LCTRL X      &hmLeft LALT C    &hmLeft LGUI V           &kp B                                    &kp N      &hmRight RGUI M  &hmRight RALT COMMA  &hmRight RCTRL DOT  &hmRight RSHFT SLASH
-&lt 1 LG(LS(C))  &mt LEFT_ALT DELETE  &lt 3 LG(LS(N4))  &mt LEFT_COMMAND ESCAPE  &mo 2        &lt 4 TAB  &lt 4 BACKSPACE  &kp SPACE                                                            &kp ENTER
+&lt 1 LG(LS(C))  &mt LEFT_ALT DELETE  &lt 3 LG(LS(N4))  &mt LEFT_COMMAND ESCAPE  &lt 2 ESC    &lt 4 TAB  &lt 4 BACKSPACE  &kp SPACE                                                            &kp ENTER
             >;
         };
 
@@ -231,10 +231,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&mts LG(Q) EXCLAMATION  &mts LG(W) AT_SIGN  &kp HASH   &mts LG(R) DOLLAR  &kp PERCENT                     &kp CARET                    &kp AMPERSAND   &kp ASTERISK          &mts LG(O) LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS
-&kp CAPS                &kp TILDE           &mo 4      &kp PIPE           &kp BACKSLASH                   &as LEFT_BRACE LEFT_BRACKET  &as PLUS EQUAL  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as LS(SEMICOLON) SEMICOLON
-&trans                  &kp GRAVE           &kp LG(C)  &kp LG(V)          &kp UNDERSCORE                  &kp DEL                      &kp BACKSPACE   &kp LESS_THAN         &kp GREATER_THAN               &kp QUESTION
-&trans                  &trans              &trans     &trans             &trans          &trans  &trans  &trans                                                                                            &kp LS(ENTER)
+&mts LG(Q) EXCLAMATION  &mts LG(W) AT_SIGN   &kp HASH   &mts LG(R) DOLLAR  &kp PERCENT                     &kp CARET                    &kp AMPERSAND   &kp ASTERISK          &mts LG(O) LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS
+&kp CAPS                &kp LG(S)            &mo 4      &kp PIPE           &kp BACKSLASH                   &as LEFT_BRACE LEFT_BRACKET  &as PLUS EQUAL  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as LS(SEMICOLON) SEMICOLON
+&trans                  &as LS(GRAVE) GRAVE  &kp LG(C)  &kp LG(V)          &kp UNDERSCORE                  &kp DEL                      &kp BACKSPACE   &kp LESS_THAN         &kp GREATER_THAN               &kp QUESTION
+&trans                  &trans               &trans     &trans             &trans          &trans  &trans  &trans                                                                                            &kp LS(ENTER)
             >;
         };
 
