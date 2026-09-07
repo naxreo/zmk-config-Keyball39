@@ -60,7 +60,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '*'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&wCenter'
@@ -70,7 +70,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '*'
+  - .
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -91,7 +91,7 @@ layers:
   - '*'
   - {t: (, h: '&shot LG(O)'}
   - )
-  - {t: '`', s: '~'}
+  - $$mdi:apple-keyboard-caps$$
   - '~'
   - FUN
   - '|'
@@ -102,7 +102,7 @@ layers:
   - {t: ']', h: '}', s: '}'}
   - {t: ;, h: Sft+;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - _
@@ -171,7 +171,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB2'
   - '&mkp MB1'
