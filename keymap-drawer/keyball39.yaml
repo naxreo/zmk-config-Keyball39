@@ -35,7 +35,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: Gui+Sft+4, h: FUN, s: Gui+Sft+$}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-command$$'}
-  - SYM
+  - {t: '$$mdi:keyboard-esc$$', h: SYM}
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', h: MOUSE}
   - $$mdi:keyboard-space$$
@@ -92,7 +92,7 @@ layers:
   - {t: (, h: '&shot LG(O)'}
   - )
   - $$mdi:apple-keyboard-caps$$
-  - '~'
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - MOUSE
   - '|'
   - {t: \, s: '|'}
@@ -102,7 +102,7 @@ layers:
   - {t: ']', h: '}', s: '}'}
   - {t: ;, h: Sft+;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - {t: '`', h: Sft+`, s: '~'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - _
