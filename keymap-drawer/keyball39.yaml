@@ -93,7 +93,7 @@ layers:
   - )
   - $$mdi:apple-keyboard-caps$$
   - '~'
-  - FUN
+  - MOUSE
   - '|'
   - {t: \, s: '|'}
   - {t: '[', h: '{', s: '{'}
@@ -133,7 +133,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F5
   - F6
-  - {t: F7, type: held alternate}
+  - F7
   - F8
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
@@ -155,7 +155,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -173,7 +173,7 @@ layers:
   - '0'
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB2'
+  - {t: '&mkp MB2', type: held alternate}
   - '&mkp MB1'
   - $$mdi:pan-up$$
   - $$mdi:arrow-left-bold$$
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held}
   - {t: '&mkp MB4', type: held alternate}
   - '&mkp MB5'
