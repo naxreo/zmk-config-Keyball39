@@ -171,7 +171,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '&mkp MB2', type: held alternate}
   - '&mkp MB1'
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {type: held}
+  - {t: '$$mdi:apple-keyboard-caps$$', type: held}
   - {t: '&mkp MB4', type: held alternate}
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
