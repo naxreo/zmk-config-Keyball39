@@ -203,6 +203,11 @@
             bindings = <&kt TAB>;
             key-positions = <10 11>;
         };
+
+        cb_cpas {
+            bindings = <&kp CAPS>;
+            key-positions = <12 11>;
+        };
     };
 
     keymap {
