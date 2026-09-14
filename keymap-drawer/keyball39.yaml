@@ -91,7 +91,7 @@ layers:
   - '*'
   - {t: (, h: '&shot LG(O)'}
   - )
-  - $$mdi:apple-keyboard-caps$$
+  - '~'
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - MOUSE
   - '|'
