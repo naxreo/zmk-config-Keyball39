@@ -292,3 +292,5 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [10, 11]
   k: {t: '$$mdi:keyboard-tab$$', h: toggle}
+- p: [12, 11]
+  k: $$mdi:apple-keyboard-caps$$
