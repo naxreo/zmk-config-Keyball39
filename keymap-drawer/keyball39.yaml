@@ -91,10 +91,10 @@ layers:
   - {t: '-', s: _}
   - {t: (, h: '&shot LG(O)'}
   - )
-  - \
+  - $$mdi:keyboard-tab$$
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - MOUSE
-  - '|'
+  - {t: \, s: '|'}
   - '~'
   - {t: '[', h: '{', s: '{'}
   - {t: '=', h: +, s: +}
@@ -171,8 +171,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:keyboard-tab$$
   - {t: '&mkp MB2', type: held alternate}
   - '&mkp MB1'
   - $$mdi:pan-up$$
@@ -291,4 +291,4 @@ combos:
 - p: [8, 9]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [10, 11]
-  k: {t: '$$mdi:keyboard-tab$$', h: toggle}
+  k: $$mdi:keyboard-tab$$
