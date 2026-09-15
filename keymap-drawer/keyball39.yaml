@@ -88,24 +88,24 @@ layers:
   - '%'
   - ^
   - '&'
-  - '*'
+  - {t: '-', s: _}
   - {t: (, h: '&shot LG(O)'}
   - )
-  - '~'
+  - \
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - MOUSE
   - '|'
-  - {t: \, s: '|'}
+  - '~'
   - {t: '[', h: '{', s: '{'}
   - {t: '=', h: +, s: +}
   - {t: '-', h: _, s: _}
   - {t: ']', h: '}', s: '}'}
   - {t: ;, h: Sft+;, s: ':'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', h: Sft+`, s: '~'}
+  - {t: '`', s: '~'}
+  - '*'
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - _
+  - ':'
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - <
