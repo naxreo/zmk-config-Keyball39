@@ -26,7 +26,7 @@ layers:
   - {t: C, h: '$$mdi:apple-keyboard-option$$'}
   - {t: V, h: LGUI}
   - B
-  - {t: N, h: B}
+  - {t: N, h: '&shot B'}
   - {t: M, h: RGUI}
   - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
