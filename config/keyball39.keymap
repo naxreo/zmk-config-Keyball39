@@ -200,7 +200,7 @@
         };
 
         cb_tab {
-            bindings = <&kt TAB>;
+            bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
     };
@@ -232,7 +232,7 @@
             label = "SYM";
             bindings = <
 &mts LG(Q) EXCLAMATION  &mts LG(W) AT_SIGN  &kp HASH   &mts LG(R) DOLLAR  &kp PERCENT                  &kp CARET                    &kp AMPERSAND   &kp MINUS             &mts LG(O) LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS
-&kp NON_US_BACKSLASH    &kp LG(S)           &mo 4      &kp PIPE           &kp TILDE                    &as LEFT_BRACE LEFT_BRACKET  &as PLUS EQUAL  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as LS(SEMICOLON) SEMICOLON
+&kp TAB                 &kp LG(S)           &mo 4      &kp BACKSLASH      &kp TILDE                    &as LEFT_BRACE LEFT_BRACKET  &as PLUS EQUAL  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as LS(SEMICOLON) SEMICOLON
 &kp GRAVE               &kp ASTERISK        &kp LG(C)  &kp LG(V)          &kp COLON                    &kp DEL                      &kp BACKSPACE   &kp LESS_THAN         &kp GREATER_THAN               &kp QUESTION
 &trans                  &trans              &trans     &trans             &trans       &trans  &trans  &trans                                                                                            &kp LS(ENTER)
             >;
@@ -251,10 +251,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &mkp MB2      &mkp MB1      &msc SCRL_UP                        &kp LEFT_ARROW  &kp DOWN       &kp UP        &kp RIGHT     &mkp MB4
-&trans        &trans        &trans        &trans        &msc SCRL_DOWN                      &kp DELETE      &kp BACKSPACE  &mkp MB1      &mkp MB2      &trans
-&trans        &trans        &trans        &trans        &trans          &kp CAPS  &mkp MB4  &mkp MB5                                                   &trans
+&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp LEFT_COMMAND  &kp TAB       &mkp MB2      &mkp MB1      &msc SCRL_UP                        &kp LEFT_ARROW  &kp DOWN       &kp UP        &kp RIGHT     &mkp MB4
+&trans            &trans        &trans        &trans        &msc SCRL_DOWN                      &kp DELETE      &kp BACKSPACE  &mkp MB1      &mkp MB2      &trans
+&trans            &trans        &trans        &trans        &trans          &kp CAPS  &mkp MB4  &mkp MB5                                                   &trans
             >;
         };
 
