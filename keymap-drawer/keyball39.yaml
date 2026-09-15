@@ -39,7 +39,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-caps$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', h: MOUSE}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
   macro:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -292,5 +292,3 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [10, 11]
   k: {t: '$$mdi:keyboard-tab$$', h: toggle}
-- p: [12, 11]
-  k: $$mdi:apple-keyboard-caps$$
