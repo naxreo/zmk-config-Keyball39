@@ -235,8 +235,8 @@
             label = "SYM";
             bindings = <
 &mts LG(Q) EXCLAMATION  &mts LG(W) AT_SIGN  &kp HASH   &mts LG(R) DOLLAR  &kp PERCENT                  &kp CARET                    &kp AMPERSAND   &kp MINUS             &mts LG(O) LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS
-&kp TAB                 &kp LG(S)           &mo 4      &kp BACKSLASH      &kp TILDE                    &as LEFT_BRACE LEFT_BRACKET  &as PLUS EQUAL  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as LS(SEMICOLON) SEMICOLON
-&kp GRAVE               &kp ASTERISK        &kp LG(C)  &kp LG(V)          &kp COLON                    &kp DEL                      &kp BACKSPACE   &kp LESS_THAN         &kp GREATER_THAN               &kp QUESTION
+&kp GRAVE               &kp LG(S)           &mo 4      &kp BACKSLASH      &kp TILDE                    &as LEFT_BRACE LEFT_BRACKET  &as PLUS EQUAL  &as UNDERSCORE MINUS  &as RIGHT_BRACE RIGHT_BRACKET  &as LS(SEMICOLON) SEMICOLON
+&trans                  &kp ASTERISK        &kp LG(C)  &kp LG(V)          &kp COLON                    &kp DEL                      &kp BACKSPACE   &kp LESS_THAN         &kp GREATER_THAN               &kp QUESTION
 &trans                  &trans              &trans     &trans             &trans       &trans  &trans  &trans                                                                                            &kp LS(ENTER)
             >;
         };
