@@ -91,7 +91,7 @@ layers:
   - {t: '-', s: _}
   - {t: (, h: '&shot LG(O)'}
   - )
-  - $$mdi:keyboard-tab$$
+  - {t: '`', s: '~'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - MOUSE
   - {t: \, s: '|'}
@@ -101,7 +101,7 @@ layers:
   - {t: '-', h: _, s: _}
   - {t: ']', h: '}', s: '}'}
   - {t: ;, h: Sft+;, s: ':'}
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '*'
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
