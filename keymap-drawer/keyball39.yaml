@@ -37,7 +37,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-command$$'}
   - SYM
   - {t: '$$mdi:apple-keyboard-caps$$', h: MOUSE}
-  - {t: '$$mdi:backspace$$', h: MOUSE}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-space$$
   - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
   macro:
@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:apple-keyboard-caps$$', type: held}
-  - {t: '&mkp MB4', type: held alternate}
+  - '&mkp MB4'
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   blue:
