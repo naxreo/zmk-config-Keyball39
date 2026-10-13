@@ -81,8 +81,8 @@ layers:
   - '0'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   SYM:
-  - {t: '!', h: '&shot LG(Q)'}
-  - {t: '@', h: '&shot LG(W)'}
+  - '!'
+  - '@'
   - '#'
   - {t: $, h: '&shot LG(R)'}
   - '%'
@@ -98,11 +98,11 @@ layers:
   - '~'
   - {t: '[', h: '{', s: '{'}
   - {t: '=', h: +, s: +}
-  - {t: '-', h: _, s: _}
+  - '*'
   - {t: ']', h: '}', s: '}'}
   - {t: ;, h: Sft+;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '*'
+  - '|'
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - ':'
