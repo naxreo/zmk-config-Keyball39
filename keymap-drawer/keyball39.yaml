@@ -39,7 +39,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-caps$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-space$$
-  - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   macro:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -95,7 +95,7 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - MOUSE
   - {t: \, s: '|'}
-  - '~'
+  - ':'
   - {t: '[', h: '{', s: '{'}
   - {t: '=', h: +, s: +}
   - '*'
@@ -105,7 +105,7 @@ layers:
   - '|'
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - ':'
+  - '~'
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - <
