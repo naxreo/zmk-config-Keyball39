@@ -34,9 +34,9 @@ layers:
   - {t: Gui+Sft+C, h: macro}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: Gui+Sft+4, h: FUN, s: Gui+Sft+$}
+  - {t: 'Sft+$$mdi:keyboard-esc$$', h: MOUSE}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-command$$'}
   - SYM
-  - {t: 'Sft+$$mdi:keyboard-esc$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -115,8 +115,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
@@ -194,9 +194,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {t: '$$mdi:apple-keyboard-caps$$', type: held}
+  - {t: '$$mdi:apple-keyboard-caps$$', type: held alternate}
   - '&mkp MB4'
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
