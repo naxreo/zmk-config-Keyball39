@@ -217,7 +217,7 @@
 &as LS(Q) Q      &as LS(W) W          &as LS(E) E       &as LS(R) R       &as LS(T) T                                   &kp Y      &kp U            &kp I                &as LS(O) O         &as LS(P) P
 &mt CAPS A       &kp S                &kp D             &kp F             &kp G                                         &kp H      &kp J            &kp K                &kp L               &as LS(SINGLE_QUOTE) SINGLE_QUOTE
 &hmLeft LSHFT Z  &hmLeft LCTRL X      &hmLeft LALT C    &hmLeft LGUI V    &kp B                                         &mts B N   &hmRight RGUI M  &hmRight RALT COMMA  &hmRight RCTRL DOT  &hmRight RSHFT SLASH
-&lt 1 LG(LS(C))  &mt LEFT_ALT DELETE  &lt 3 LG(LS(N4))  &lt 4 LS(ESCAPE)  &mt LEFT_COMMAND ESC  &mo 2  &lt 4 BACKSPACE  &kp SPACE                                                            &kp ENTER
+&lt 1 LG(LS(C))  &mt LEFT_ALT DELETE  &lt 3 LG(LS(N4))  &mt LEFT_COMMAND ESC  &mo 2  &lt 4 LS(ESCAPE)  &lt 4 BACKSPACE  &kp SPACE                                                            &kp ENTER
             >;
         };
 
@@ -257,7 +257,7 @@
 &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &kp LEFT_COMMAND  &kp TAB       &mkp MB2      &mkp MB1      &msc SCRL_UP                        &kp LEFT_ARROW  &kp DOWN       &kp UP        &kp RIGHT     &mkp MB4
 &trans            &trans        &kp LG(C)     &kp LG(V)     &msc SCRL_DOWN                      &kp DELETE      &kp BACKSPACE  &mkp MB1      &mkp MB2      &trans
-&trans            &trans        &trans        &trans        &trans          &kp CAPS  &mkp MB4  &mkp MB5                                                   &trans
+&trans            &trans        &trans        &kp CAPS      &mkp MB4        &trans    &mkp MB4  &mkp MB5                                                   &trans
             >;
         };
 
