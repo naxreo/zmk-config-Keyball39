@@ -34,9 +34,9 @@ layers:
   - {t: Gui+Sft+C, h: macro}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: Gui+Sft+4, h: FUN, s: Gui+Sft+$}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-command$$'}
-  - SYM
-  - {t: 'Sft+$$mdi:keyboard-esc$$', h: MOUSE}
+  - {t: 'Sft+$$mdi:keyboard-esc$$', h: (LEFT COMMAND)}
+  - {t: '$$mdi:keyboard-esc$$', h: SYM}
+  - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', h: MOUSE}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -117,9 +117,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   FUN:
   - F1
   - F2
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '?'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -245,7 +245,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
